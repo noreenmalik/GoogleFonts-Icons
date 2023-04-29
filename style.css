@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Red+Hat+Mono&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 15px;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  background-color: #fff;
+  margin-top: 3px;
+  margin-left: 25px;
+  border-radius: 12px;
+  border-right: #000000 solid 3px;
+  border-left: #000000 solid 3px;
+  border-bottom: #000000 solid 3px;
+}
+
+.nav a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  border-right: 3px solid rgba(142, 142, 142, 0.244);
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+
+}
+
+.nav a:last-of-type {
+  border-right: none;
+}
+
+a:hover {
+  color: rgb(6, 107, 130);
+  text-shadow: #545353 1px 1px 2px;
+  transition: .3s;
+  animation: ease-in-out 5s;
+}
+
+a:hover .fa-solid {
+  color: rgb(6, 107, 130);
+  transition: .1s;
+}
+
+.fa-xl {
+  color: #000000;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 380px;
+  left: 420px;
+  right: 450px;
+  width: 45%;
+  height: 200px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  color: rgb(2, 93, 113);
+  background-color: rgba(255, 255, 255, 0.726);
+  border-top: 3px solid rgb(255, 255, 255);
+  border-radius: 30px 30px 0 0;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  padding: 15px 0;
+  text-shadow: 1px 2px 2px rgb(2, 88, 90);
+
+}
+
+.container p {
+  color: #000000;
+  /* background-color: rgb(225, 219, 219); */
+  background-color: rgba(255, 255, 255, 0.726);
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 50px;
+  border-top: 2px solid rgba(1, 78, 84, 0.548);
+  border-radius: 0 0 30px 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#main {
+  display: block;
+  text-align: center;
+  margin: 30px 0;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+h3 {
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 30px;
+}
+
+i {
+  font-size: 28px;
+  padding-right: 30px;
+  font-style: normal;
+  margin-bottom: 30px;
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#para1,
+#para2,
+#para3,
+#para4,
+#para5,
+#para6,
+#para7,
+#para8,
+#para9,
+#para10 {
+  font-size: 25px;
+  padding: 5px 45px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#para1 {
+  font-family: 'Caudex', serif;
+}
+
+#para2 {
+  font-family: 'Sanchez', serif;
+}
+
+#para3 {
+  font-family: 'Gotu', sans-serif;
+}
+
+#para4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#para5 {
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+#para6 {
+  font-family: 'Comfortaa', cursive;
+}
+
+#para7 {
+  font-family: 'Dekko', cursive;
+
+}
+
+#para8 {
+  font-family: 'Itim', cursive;
+}
+
+#para9 {
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+#para10 {
+  font-family: 'Red Hat Mono', monospace;
+}
